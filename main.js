@@ -1,13 +1,13 @@
 let digit = 0;
 let listRecipes = JSON.parse(localStorage.getItem('localData')) || [
   {
-    name: 'Vegan General Tao Tofu',
-    ingredients: ['Vegetable broth', 'Tofu']
+    name: 'Vegan general tao tofu',
+    ingredients: ['vegetable broth', 'tofu']
   }, {
-    name: 'Peanut Energy Balls',
-    ingredients: ['Peanut butter', 'Oats', 'Cononut flakes']
+    name: 'Peanut energy balls',
+    ingredients: ['peanut butter', 'oats', 'cononut flakes']
   }, {
-    name: 'Chocolate Matzo Brittle',
+    name: 'Chocolate matzo brittle',
     ingredients: ['matzos', 'chocolate chips', 'toasted nuts', 'dried fruit']
   }
 ];

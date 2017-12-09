@@ -22,8 +22,7 @@ class App extends React.Component {
   }
   changeNum(m) {
     digit = m;
-    this.setState({recipes: listRecipes, num: digit})
-    localStorage.setItem('x', JSON.stringify(digit));
+    this.setState({recipes: listRecipes, num: digit});   
   }
   deleteRecipe(x) {
     listRecipes.splice(x, 1);
@@ -73,7 +72,7 @@ class App extends React.Component {
         <div className="panel panel-default container introduction">
           <h3 className="text-center panel-heading">My Recipe-Box -- Yummy Yummy!</h3>
         </div>
-        <div class="container recipe-box">
+        <div className="container recipe-box">
           {this
             .state
             .recipes
